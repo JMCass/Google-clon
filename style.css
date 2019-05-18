@@ -1,0 +1,144 @@
+body{
+	font-size:16px;
+	font-family: 'Titillium Web', sans-serif;
+	width: 100%
+	height: 100%;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.top-bar{
+	height: 80px;
+
+}
+
+.top-bar #grid {
+	width: 15px;
+}
+
+.top-bar #profile{
+	width: 25px;
+	border-radius: 5px;
+}
+
+.top-bar nav{
+	float: right;
+	margin:15px 15px;
+}
+
+.top-bar a {
+	margin: 2px 6px;
+	color: #404040;
+}
+
+.search{
+	text-align: center;
+	margin: 11% 0 0 0;
+
+}
+
+.logo {
+	max-width: 40%;
+	margin: 0 auto;
+
+}
+
+.logo img{
+	margin: 8px;
+	width: 55%;
+}
+
+.search input{
+	margin:12px 8px 0 12px;
+	width: 35%;
+	border: 1px solid #404040
+	padding: 10px;
+	font-size: 12px;	
+	border-radius: 30px;
+
+}
+
+.search input:focus{
+	outline: none;
+	border: 1px solid #4285F4;
+}
+
+.search-buttons button{
+	margin: 14px 14px 0 5px;
+	padding: 10px 10px;
+	border-radius: 4px;
+	color: #444444;
+	background-image: linear-gradient(to bottom,#F3F2F2 0%, #F3F2F2 100%);
+
+}
+
+.search button:hover{
+	box-shadow: 1px 1px 7px rgba(0,0,0,.9);
+}
+
+.nota{
+	font-size:13px;
+	margin: 14px 7px 0 5px;
+	padding: 7px 8px;
+	
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	height: 90px;
+	width: 100%;
+	background: rgba(0,0,0,.1)
+}
+
+.footer-left{
+	float: left;
+	margin: 12px;
+}
+
+.footer-right{
+	float: right;
+	margin: 15px;
+}
+
+.country{
+	display: block;
+	padding-left: 12px;
+}
+
+footer nav{
+	display: inline-block;
+	padding: 12px 0 0 0;
+}
+
+footer nav a{
+	font-size: 15px;
+	padding: 1px 8px;
+	color: #646464;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.microph{
+	position: absolute;
+	background: none;
+	border:none;
+	border-radius: 5px;
+    top: 351px;
+    right: 418px;
+    height: 20px
+
+
+}
+
